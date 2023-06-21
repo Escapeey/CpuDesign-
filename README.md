@@ -2,7 +2,7 @@
 计算机组成原理 十条指令CPU设计  
 **本项目实现了十条指令的CPU 内存大小为 16x8位， 指令字长为8位，前4位为操作码**。
 ## 1.指令集
-![指令集](Image/instruction.png "指令集")
+![指令集](http://m.qpic.cn/psc?/V50PQLrG21HPuk2xuTDP21m7W34eYMMH/bqQfVz5yrrGYSXMvKr.cqYdlmdEPI8BRrfLPjBLi9wYEO33AfSbbUpeu6Wm**yN*zsNYBKq8MnTdp*jd17.sG7SnOODcPDq*wtmjHT7IJeg!/b&bo=4wMaAgAAAAADB9o!&rf=viewer_4 "指令集")
 ## 2.文件介绍
 - MyPC.v  文件 实现了PC, 其中上升沿为PC的顺序寻址，下降沿为指令的跳跃寻址；
 - MyALU.v 文件 实现了ALU,其中s为运算控制信号；
